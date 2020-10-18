@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora de IMC</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="cuadroFondo">
+	<p>Calculadora de IMC</p>
+</div>
+
+<div class="vertical">
+	<label>Peso (kg)</label>
+	<input type="number" id="peso">
+	<label>Altura (centímetros)</label>
+	<input type="number" id="altura">
+	<button onclick="calcular()">Calcular</button>
+</div>
+
+
+<div id="modalResultado" class="modalResultado" hidden="true">
+	<button class="cerrar" id="btn" onclick="cerrar(this)">X</button>
+	<div id="resultado"></div>
+</div>
+
+<script type="text/javascript" src="js/control.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+	body{
+		margin: 0;		
+		background-color: #ffb578;
+	}
+	.cuadroFondo{
+		background-color: #ed5d1b;
+		width: 50%;
+		height: 400px;
+		margin: auto;
+		margin-top: 150px;
+
+		box-shadow: 14px 14px 16px -7px rgba(0,0,0,0.75);
+
+	}
+
+	.cuadroFondo p {
+		font-size: 65px;
+		width: 30%;
+		text-align: center;
+		padding-top: 15%;
+		padding-left: 5%;
+
+		color: white;
+	}
+	.vertical {
+		background-color: #fff;
+		width: 25%;
+		height: 75%;
+
+		position: absolute;
+		z-index: 100;
+		right: 400px;
+		top: 75px;
+
+		text-align: center;
+
+		}
+
+	label, input, button{
+		display: block;
+		margin: auto;
+		margin-top: 15px;
+		font-size: 35px;
+	}
+
+	input {
+		width: 75%;
+	}
+
+	label:first-child {
+		padding-top: 25%;
+	}
+
+	.modalResultado {
+		position: absolute;
+
+		background-color: #fff;
+		width: 350px;
+		height: 250px;
+
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+
+		z-index: 120;
+
+		border: 5px solid orange;
+		box-shadow: 10px 42px 300px 113px rgba(0,0,0,0.46);
+
+
+
+		border-radius: 10px;
+
+		text-align: center;
+		font-size: 28px;
+	}
+
+	.modalResultado .cerrar{
+		margin-left: 90%;
+		font-size: 18px;
+	}
